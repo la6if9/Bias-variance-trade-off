@@ -14,23 +14,23 @@ Scatter plot with displacement on the x-axis and mpg on the y-axis. Cases in the
 
 #Training the models
 
-Linear regression model: "mpg=β0+β1⋅displacement" 
+Linear regression model: mpg=β0+β1⋅displacement
 MSE= 21.32563
-Quadratic regression model: mpg=β0+β1⋅displacement+β2⋅displacement^2"
+Quadratic regression model: mpg=β0+β1⋅displacement+β2⋅displacement^2
 MSE= 18.87988
 k-nearest neighbor: (5-fold cross validation)
 MSE= 17.03057
 
 #Visualizing the predictions
 
-#linear= "Blue"
-#quadric= "Red"
-#knn= "Green"
+linear= "Blue".
+quadric= "Red".
+knn= "Green".
 
 ![](https://github.com/la6if9/Bias-variance-trade-off/blob/main/Rplot02.png)
 
 #Testing the predictions
-MSE
+MSE.
 testMSE_linear: 21.58022
 testMSE_quadratic: 19.03581
 testMSE_knn: 21.56773
